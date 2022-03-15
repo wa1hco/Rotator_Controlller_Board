@@ -215,8 +215,8 @@ Source: U6 OnSemi Inductive Load Driver MDC3105-D.PDF</description>
 <wire x1="-20.75" y1="10" x2="20.75" y2="10" width="0.127" layer="21"/>
 <wire x1="20.75" y1="10" x2="20.75" y2="-10" width="0.127" layer="21"/>
 <wire x1="20.75" y1="-10" x2="-20.75" y2="-10" width="0.127" layer="21"/>
-<pad name="P$1" x="-18.75" y="0" drill="1.1"/>
-<pad name="P$2" x="18.75" y="0" drill="1.1"/>
+<pad name="P$1" x="-18.75" y="0" drill="1.2"/>
+<pad name="P$2" x="18.75" y="0" drill="1.2"/>
 </package>
 </packages>
 <packages3d>
