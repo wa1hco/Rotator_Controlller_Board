@@ -14352,6 +14352,14 @@ Share Alike License</text>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="152.4" y1="17.78" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="40.64" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="38.1" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="175.26" y="43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -14513,15 +14521,6 @@ Share Alike License</text>
 <wire x1="142.24" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <junction x="142.24" y="81.28"/>
 <junction x="149.86" y="81.28"/>
-<wire x1="167.64" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<junction x="167.64" y="81.28"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="81.28" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="40.64" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="38.1" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
-<junction x="177.8" y="40.64"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="-91.44" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
