@@ -14201,7 +14201,7 @@ www.irf.com&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="30.48" y="-38.1" size="1.778" layer="91">Rotor Controller
+<text x="30.48" y="-38.1" size="1.778" layer="91">Rotor Controller. V3
 - external 26 VAC, reference to gnd
 - onboard 100 uFd motor capacitor
 - relays for motor and brake
@@ -14329,17 +14329,17 @@ Share Alike License</text>
 <attribute name="NAME" x="77.978" y="-3.0734" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="80.518" y="-9.0424" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D3" gate="G$1" x="96.52" y="20.32" smashed="yes" rot="MR90">
-<attribute name="NAME" x="95.758" y="19.7866" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="95.758" y="13.8176" size="1.778" layer="96" rot="MR0"/>
+<instance part="D3" gate="G$1" x="99.06" y="20.32" smashed="yes" rot="MR90">
+<attribute name="NAME" x="98.298" y="19.7866" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="98.298" y="13.8176" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY27" gate="GND" x="81.28" y="-10.16" smashed="yes"/>
-<instance part="SUPPLY28" gate="GND" x="96.52" y="12.7" smashed="yes"/>
+<instance part="SUPPLY28" gate="GND" x="99.06" y="12.7" smashed="yes"/>
 <instance part="+3V3" gate="G$1" x="81.28" y="5.08" smashed="yes">
 <attribute name="VALUE" x="77.724" y="5.588" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="96.52" y="27.94" smashed="yes">
-<attribute name="VALUE" x="92.964" y="28.448" size="1.778" layer="96"/>
+<instance part="+3V4" gate="G$1" x="99.06" y="27.94" smashed="yes">
+<attribute name="VALUE" x="95.504" y="28.448" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="195.58" y="116.84" smashed="yes">
 <attribute name="NAME" x="196.596" y="117.475" size="1.778" layer="95"/>
@@ -15086,7 +15086,7 @@ Share Alike License</text>
 <wire x1="104.14" y1="25.4" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C1A2"/>
-<wire x1="99.06" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="20.32" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
 <junction x="104.14" y="20.32"/>
 </segment>
@@ -15422,8 +15422,8 @@ Share Alike License</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,154.94,-10.16,+3V3,3V3,,,,"/>
-<approved hash="102,1,152.4,17.78,+3V3,3V3,,,,"/>
+<approved hash="102,1,81.28,2.54,+3V3,3V3,,,,"/>
+<approved hash="102,1,99.06,25.4,+3V3,3V3,,,,"/>
 <approved hash="104,1,127,-106.68,U1,V+,+5V,,,"/>
 </errors>
 </schematic>

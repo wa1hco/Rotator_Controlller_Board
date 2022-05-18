@@ -157,6 +157,7 @@ Creative Commons Lic, V4
 Share Alike</text>
 <text x="80.518" y="53.848" size="1.778" layer="122" rot="MR0">CW</text>
 <text x="63.754" y="53.848" size="1.778" layer="122" rot="MR0">CCW</text>
+<text x="43.18" y="77.47" size="1.778" layer="121">HCO Rotor Control Board, V3</text>
 </plain>
 <libraries>
 <library name="con-phoenix-254" urn="urn:adsk.eagle:library:172">
